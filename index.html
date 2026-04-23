@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سور الحرازمي</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+        :root {
+            --navy-bg: #050d24; /* اللون الكحلي الداكن من الصورة */
+            --gold-accent: #c5a059; /* اللون الذهبي للزخارف */
+            --text-white: #ffffff;
+            --card-bg: rgba(4, 2, 36, 0.05);
+        }
+
+        body {
+            font-family: 'Amiri', serif;
+            background-color: var(--navy-bg);
+            color: var(--text-white);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 480px;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            background-image: radial-gradient(circle at 50% 0%, rgba(197, 160, 89, 0.1) 0%, transparent 70%);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--gold-accent);
+            padding-bottom: 20px;
+        }
+
+        .main-title {
+            color: var(--gold-accent);
+            font-size: 32px;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .sub-title {
+            font-size: 16px;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+
+        .basmala {
+            text-align: center;
+            font-size: 26px;
+            margin: 30px 0;
+            color: var(--gold-accent);
+        }
+
+        .poem-content {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .verse-block {
+            text-align: center;
+            padding: 15px;
+            background: var(--card-bg);
+            border-radius: 15px;
+            border: 1px solid rgba(197, 160, 89, 0.1);
+        }
+
+        .sadr, .ajuz {
+            font-size: 21px;
+            line-height: 1.8;
+            margin: 5px 0;
+        }
+
+        /* الفواصل الزخرفية (Vectors) */
+        .vector-divider {
+            height: 30px;
+            width: 100%;
+            margin-top: 10px;
+            background-image: url('data:image/svg+xml;utf8,<svg width="200" height="30" viewBox="0 0 200 30" xmlns="http://www.w3.org/2000/svg"><path d="M0 15 Q50 0 100 15 T200 15" fill="none" stroke="%23c5a059" stroke-width="1" opacity="0.5"/><circle cx="100" cy="15" r="3" fill="%23c5a059"/></svg>');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 30px 10px;
+            text-align: center;
+            border-top: 1px solid rgba(197, 160, 89, 0.3);
+            font-size: 14px;
+            color: var(--gold-accent);
+        }
+
+        .metadata {
+            margin-top: 10px;
+            color: var(--text-white);
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+    <header>
+        <div class="main-title">سور الحرازمي</div>
+        <div class="sub-title">تجرع الموت في الدفع والتحصين بسر القهرموت</div>
+    </header>
+
+    <div class="basmala">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+
+    <div class="poem-content">
+        <div class="verse-block">
+            <div class="sadr">يَا ذَا انْتِقَامُ لِلْعِدَى</div>
+            <div class="ajuz">لَا لَا تُمْهَلْ لِمَنْ عَدَى</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">عَلَيْنَا أَوْ مَنْ حَارَبَ</div>
+            <div class="ajuz">مِنْهُمْ أَوْ مَنْ تَمَرَّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">فِي نَحْرِهِمْ نَجْعَلُكَ</div>
+            <div class="ajuz">كَافِي غَيْبًا وَمَشْهَدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">نَعُوذُ مِنْ شُرُورِهِمْ</div>
+            <div class="ajuz">فَحَصِّنَا الْمَكَائِدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">أَرْسِلْ هَوَاتِفَ الْجُنُونُ</div>
+            <div class="ajuz">بِنِقْمَةٍ مُسَرْمَدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">إِلَى مَنْ كَادَ جَنْبَنَا</div>
+            <div class="ajuz">أَوْ أَهْلَنَا مَنْ قَصَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">أَمِنْهُ مَيْتَةَ السُّوءِ</div>
+            <div class="ajuz">فَأَمْرُهُ قَدْ فَسَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">حَوْلَهُ كَالْخَنَازِرِ</div>
+            <div class="ajuz">يَسْلُكْ عَذَابًا صَعَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">فَمَنْ رَمَانِي فَارْمِهِ</div>
+            <div class="ajuz">بِالسُّوءِ دَوْمًا أَبَدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَمَنْ شَرًّا رَمَى تَرَى</div>
+            <div class="ajuz">يَجِدْ شَهَابًا رَصَدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَانْزِلْ عَلَيْهِ الْإِنْتِقَامُ</div>
+            <div class="ajuz">لِأَنَّهُ قَدِ اعْتَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَاقْطَعْ سُرْعًا آثَارَهُ</div>
+            <div class="ajuz">لَهُ الْعَذَابَ شَدّدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr"> مِنَ الْجِنَّ وَإِنْسِهِمْ</div>
+            <div class="ajuz">مَكَّنْ عَلَيْهِ الْأَعْدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">مَزَقْهُ يَا مُمَزِّقُ</div>
+            <div class="ajuz">شَمْلاً لَهُ فَبَدِّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">يَا مَنْ تَعَالَى مُلْكُهُ</div>
+            <div class="ajuz">لاَ كُفْؤَ لاَ وَلاَ ضِدًّا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">مَنْ لاَ إِلَهَ غَيْرُهُ</div>
+            <div class="ajuz">وَلَا شَبِيهَ لَا نِدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">مَنِ اصْطَفَى مُحَمَّدًا</div>
+            <div class="ajuz">عَلَى الْأَنَامِ أَحْمَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">مَنْ لَمْ يَلِدْ وَلَمْ يُولَدْ</div>
+            <div class="ajuz">قَاهِرُ مَنْ تَجَلْمَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">كَافِي الْعُبَيْدَ شَرَّ مَنْ</div>
+            <div class="ajuz">مِنَ الْأَنَامِ إِعْتَدَى</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">مِنْ عَائِنٍ وَعَيْنِهِمْ</div>
+            <div class="ajuz">وَحَاسِدٍ تَحَسَّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَخَاطِفِ مُنَافِقٍ</div>
+            <div class="ajuz">وَمَنْ بِالسِّحْرِ يَرْتَدَى</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">يَا رَبِّ وَاعْمِ بَصَرَهُمْ</div>
+            <div class="ajuz">كَانُوا عَلَيَّ لِبَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">يَا مَنْ أَلِيمٌ أَخْذُهُ </div>
+            <div class="ajuz">شَدِيدُ شَرًّا بَدَّدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">بِالْإِسْمِ قَدْ دَعَوْتُكَ</div>
+            <div class="ajuz">سُبْحَانَ مَنْ تَفَرَّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">بِيُزْعَجِ الْحَرَازِي</div>
+            <div class="ajuz">وَمَنْ بِهِ تَقَلَّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">لا لا تُخَيِّبْ أَهْلِي</div>
+            <div class="ajuz">مِنْ أَوْلاَدٍ وَالْحَفَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">أَرَى خَيْرًا فِي عُمْرِهِمْ</div>
+            <div class="ajuz">عِلْمًا وَرِزْقًا رَشَدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">حِفْظَ الْكِتَابِ لَهُمُ</div>
+            <div class="ajuz">كَرَامَةً لَا عَدَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">يَا حَافِظَ الذَّاتِ الْعَلِي</div>
+            <div class="ajuz">إِحْفَظُ عُبَيْدًا عُقَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَانْزِلْ عَلَى مَنْ جَارَنَا</div>
+            <div class="ajuz">عُقُوبَةٌ يَا صَمَدَا </div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">فِي نَفْسِهِ وَمَالِهِ</div>
+            <div class="ajuz">وَدِينِهِ مَنْ وَلَدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">حَتَّى يَصِيرَ عِبْرَةٌ</div>
+            <div class="ajuz">وَانْزِلْ عَلَيْهِ صَرَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">صَمَمًا وَانْزِلْ فِي أُذْنِهِ</div>
+            <div class="ajuz">فِي الْغَمِّ بَكَما بَدِّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">طَمْسًا عَلَى فُؤَادِهِ</div>
+            <div class="ajuz">ذَهْلاً كَسْلًا مُفَنَّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَاطْمِسْ عَلَى أَمْوَالِهِمْ</div>
+            <div class="ajuz">قُلُوبُهُمْ تُشَدِّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَمَنْ أَرَادَ سُوءًا بِي</div>
+            <div class="ajuz">فَاجْعَلْ فِي وَجْهِهِ الْكَمَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَاجْعَلْ لَهُ دَوَائِرًا</div>
+            <div class="ajuz">مَصَائِبًا لَا عَدَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَارْسِلْ عَلَيْهِ رِجْرًا</div>
+            <div class="ajuz">مِنَ السَّمَا تَجَرَّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">مِنَ الْأَمْرَاضِ وَالسِّقَامِ</div>
+            <div class="ajuz">مِنْهَا مَا لَمْ يُعَوِّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَاهْلِكَ كَبِيرَ الْقَوْمِ</div>
+            <div class="ajuz">وَانْزَعْ مُلْكًا لَوْ سَجَدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">يَأْتِيهِ الْمَوْتُ بَغْتَةً</div>
+            <div class="ajuz">أَفْعَالاً مِنْهُ لاَ سُدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَاسْلُبْ أَنْوَاعَ حِرْزِهِ</div>
+            <div class="ajuz">يَصِيبُهُ مَنْ قَصَدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">بِمَنْ غَذَى يَوْمَ الْبَدَرُ</div>
+            <div class="ajuz">خَنْدَقْ حُنَيْنٌ أُحُدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">مُحَمَّدُ مُشَرِّفًا</div>
+            <div class="ajuz">شَفِيعُ الْخَلْقِ قَدْ غَدَى</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">صَلَّى عَلَيْهِ رَبُّهُ</div>
+            <div class="ajuz">الآفٍ لَا تُعَدِّدَا</div>
+            <div class="vector-divider"></div>
+        </div>
+
+        <div class="verse-block">
+            <div class="sadr">وَعَالِهِ وَصَحْبِهِ</div>
+            <div class="ajuz">وَمَنْ إِلَيْهِمْ حَشَدًا</div>
+            <div class="vector-divider"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div>يَا قُطبُ يَا غَوْثَ يَا عَلِيُّ سَلَّمْنِي مِنْ كُلِّ وَصَفْ دَمِيمٍ وَاجْعَلْنِي مِمَّنْ يَأْتِيكَ بقلب سَلِيمٍ</div>
+        <div class="metadata">
+            الناظم: السيدى أبو الحسنين الشيخ حسين ابن إلياس الكنوي <br>
+            سنة ١٤٤٥ هـ / ٢٠٢٣ م <br>
+            مطبعة الأنصاري الحسيني - كـانـو
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
